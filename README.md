@@ -1,12 +1,6 @@
 
 <div align="center">
 
-# 👋 Hi,
-
-# VISHAL AGRAWAL
-
-### Machine Learning • Deep Learning • Generative AI
-
 <img src="./banner.svg" width="100%" />
 
 </div>

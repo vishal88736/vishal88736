@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 220" width="860" height="220">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1e3535" opacity="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="220" fill="#0a0f0f"/>
+  <!-- Dot pattern -->
+  <rect width="860" height="220" fill="url(#dots)"/>
+
+  <!-- Outer border frame -->
+  <rect x="14" y="14" width="832" height="192" fill="none" stroke="#1e3a3a" stroke-width="1"/>
+
+  <!-- Corner brackets - top left -->
+  <polyline points="14,44 14,14 44,14" fill="none" stroke="#00c8aa" stroke-width="2.5"/>
+  <!-- Corner brackets - top right -->
+  <polyline points="816,14 846,14 846,44" fill="none" stroke="#00c8aa" stroke-width="2.5"/>
+  <!-- Corner brackets - bottom left -->
+  <polyline points="14,176 14,206 44,206" fill="none" stroke="#00c8aa" stroke-width="2.5"/>
+  <!-- Corner brackets - bottom right -->
+  <polyline points="816,206 846,206 846,176" fill="none" stroke="#00c8aa" stroke-width="2.5"/>
+
+  <!-- Top label -->
+  <text x="430" y="58" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="11" fill="#00c8aa" opacity="0.8"
+        letter-spacing="5">[ AI ENGINEER · ML ENTHUSIAST · BUILDER ]</text>
+
+  <!-- Separator line above name -->
+  <line x1="200" y1="70" x2="660" y2="70" stroke="#00c8aa" stroke-width="0.6" opacity="0.35"/>
+
+  <!-- Name shadow layer (offset for depth, no filter needed) -->
+  <text x="432" y="142" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="70" font-weight="bold"
+        fill="none"
+        stroke="#004d3d" stroke-width="6"
+        letter-spacing="4">VISHAL AGRAWAL</text>
+
+  <!-- Name outer glow (wider stroke, semi-transparent) -->
+  <text x="430" y="140" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="70" font-weight="bold"
+        fill="none"
+        stroke="#00c8aa" stroke-width="4" opacity="0.25"
+        letter-spacing="4">VISHAL AGRAWAL</text>
+
+  <!-- Name mid stroke -->
+  <text x="430" y="140" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="70" font-weight="bold"
+        fill="none"
+        stroke="#00c8aa" stroke-width="2" opacity="0.6"
+        letter-spacing="4">VISHAL AGRAWAL</text>
+
+  <!-- Name crisp top stroke -->
+  <text x="430" y="140" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="70" font-weight="bold"
+        fill="none"
+        stroke="#00e8c4" stroke-width="1"
+        letter-spacing="4">VISHAL AGRAWAL</text>
+
+  <!-- Separator line below name -->
+  <line x1="200" y1="155" x2="660" y2="155" stroke="#00c8aa" stroke-width="0.6" opacity="0.35"/>
+
+  <!-- Tagline -->
+  <text x="430" y="179" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="12.5" fill="#5eb8a8" opacity="0.9"
+        letter-spacing="6">Developer  ·  Creator  ·  Learner</text>
+</svg>

@@ -1,3 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 220" width="860" height="220">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1a2a2a" opacity="0.8"/>
+    </pattern>
+    <filter id="glow-teal">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-soft">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="220" fill="#0a0f0f"/>
+  <!-- Dot pattern overlay -->
+  <rect width="860" height="220" fill="url(#dots)"/>
+
+  <!-- Outer border frame -->
+  <rect x="14" y="14" width="832" height="192" fill="none" stroke="#1e3a3a" stroke-width="1"/>
+
+  <!-- Corner brackets - top left -->
+  <polyline points="14,44 14,14 44,14" fill="none" stroke="#00c8aa" stroke-width="2"/>
+  <!-- Corner brackets - top right -->
+  <polyline points="816,14 846,14 846,44" fill="none" stroke="#00c8aa" stroke-width="2"/>
+  <!-- Corner brackets - bottom left -->
+  <polyline points="14,176 14,206 44,206" fill="none" stroke="#00c8aa" stroke-width="2"/>
+  <!-- Corner brackets - bottom right -->
+  <polyline points="816,206 846,206 846,176" fill="none" stroke="#00c8aa" stroke-width="2"/>
+
+  <!-- Top label: [ AI ENGINEER · ML ENTHUSIAST ] -->
+  <text x="430" y="58" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="11" fill="#00c8aa" opacity="0.75"
+        letter-spacing="4">[ AI ENGINEER · ML ENTHUSIAST · BUILDER ]</text>
+
+  <!-- Separator line above name -->
+  <line x1="180" y1="68" x2="680" y2="68" stroke="#00c8aa" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Main name: VISHAL AGRAWAL — stroke/outline style like reference -->
+  <!-- Glow layer -->
+  <text x="430" y="140" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="72" font-weight="bold"
+        fill="none"
+        stroke="#00c8aa" stroke-width="3"
+        filter="url(#glow-teal)"
+        letter-spacing="6">VISHAL AGRAWAL</text>
+  <!-- Crisp stroke layer -->
+  <text x="430" y="140" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="72" font-weight="bold"
+        fill="none"
+        stroke="#00c8aa" stroke-width="1.2"
+        letter-spacing="6">VISHAL AGRAWAL</text>
+
+  <!-- Separator line below name -->
+  <line x1="180" y1="154" x2="680" y2="154" stroke="#00c8aa" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Tagline: Developer · Creator · Learner style -->
+  <text x="430" y="178" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="13" fill="#7ecfc0" opacity="0.85"
+        letter-spacing="5">Developer  ·  Creator  ·  Learner</text>
+</svg>
 <div align="center">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="860" height="200">

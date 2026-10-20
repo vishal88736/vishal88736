@@ -1,0 +1,65 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vishal Agrawal — AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090d18"/>
+      <stop offset="1" stop-color="#151c30"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b8945a"/>
+      <stop offset="0.5" stop-color="#f1e0b8"/>
+      <stop offset="1" stop-color="#b8945a"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.88" cy="0.05" r="0.65">
+      <stop offset="0" stop-color="#4a5c99" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#4a5c99" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.05" cy="1" r="0.5">
+      <stop offset="0" stop-color="#c9a96e" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#c9a96e" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#c9a96e" fill-opacity="0.10"/>
+    </pattern>
+    <style>
+      .fade   { opacity: 0; animation: fadeUp 1.2s ease-out forwards; }
+      .d1 { animation-delay: .2s; } .d2 { animation-delay: .5s; } .d3 { animation-delay: .9s; }
+      @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+      .line { transform-origin: 80px 0; transform: scaleX(0); animation: grow 1.4s .8s ease-out forwards; }
+      @keyframes grow { to { transform: scaleX(1); } }
+      .node { animation: pulse 3.6s ease-in-out infinite; }
+      .n2 { animation-delay: .6s; } .n3 { animation-delay: 1.2s; } .n4 { animation-delay: 1.8s; } .n5 { animation-delay: 2.4s; }
+      @keyframes pulse { 0%,100% { opacity: .25; } 50% { opacity: .9; } }
+      .edge { stroke-dasharray: 6 8; animation: flow 6s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -56; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#dots)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#glowA)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#glowB)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="17" fill="none" stroke="#c9a96e" stroke-opacity="0.22"/>
+
+  <!-- network motif -->
+  <g stroke="#c9a96e" stroke-opacity="0.28" stroke-width="1" fill="none" class="edge">
+    <path d="M800 70 L910 120 L1020 75 L1130 140"/>
+    <path d="M910 120 L955 215 L1070 240 L1130 140"/>
+    <path d="M955 215 L850 255"/>
+    <path d="M1020 75 L1070 240"/>
+  </g>
+  <g fill="#e6cf9c">
+    <circle class="node"      cx="800"  cy="70"  r="3.5"/>
+    <circle class="node n2"   cx="910"  cy="120" r="4.5"/>
+    <circle class="node n3"   cx="1020" cy="75"  r="3.5"/>
+    <circle class="node n4"   cx="1130" cy="140" r="4.5"/>
+    <circle class="node n5"   cx="955"  cy="215" r="3.5"/>
+    <circle class="node n2"   cx="1070" cy="240" r="3.5"/>
+    <circle class="node n3"   cx="850"  cy="255" r="3"/>
+  </g>
+
+  <!-- text -->
+  <text class="fade d1" x="80" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="7" fill="#c9a96e">AI  ·  MACHINE LEARNING  ·  PRODUCTS</text>
+  <text class="fade d2" x="80" y="188" font-family="Georgia, 'Times New Roman', serif" font-size="74" fill="#f5f1e8">Vishal Agrawal</text>
+  <rect class="line" x="80" y="210" width="160" height="2" fill="url(#gold)"/>
+  <text class="fade d3" x="80" y="256" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#9aa3b8">Turning ambitious AI ideas into real, working products.</text>
+</svg>

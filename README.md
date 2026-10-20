@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Vishal Agrawal — AI Engineer" />
+<img src="./banner1.svg" width="100%" alt="Vishal Agrawal — AI Engineer" />
 
 <a href="https://github.com/vishal88736">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1200&color=C9A96E&center=true&vCenter=true&width=720&height=50&lines=Machine+Learning+Engineer;Generative+AI+Builder;Computer+Vision+Explorer;LLM+Engineering+Enthusiast;Turning+ideas+into+real+products" alt="Typing animation" />
